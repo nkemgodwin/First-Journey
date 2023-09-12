@@ -1,0 +1,245 @@
+body{
+    margin: 0px;
+    padding: 0px auto;
+}
+
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+
+.slider figure img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 20s infinite;
+}
+
+@keyframes animate{
+    0%{left: 0%;}
+    10%{left: 0%;}
+    12%{left: -100%;}
+    22%{left: -100%;}
+    24%{left: -200%;}
+    34%{left: -200%;}
+    36%{left: -200%;}
+    46%{left: -200%;}
+    48%{left: -100%;}
+    58%{left: -100%;}
+    60%{left: -0%;}
+}
+
+
+.logo{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-btn{
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    border: 0px solid;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+
+.first-ul{
+    margin-left: 800px;
+    margin-top: -90px;
+    color: black;
+}
+
+.first-ul li{
+    margin: 30px;
+    list-style: none;
+    float: left;
+}
+
+.first-ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.first-ul li a:hover{
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+
+.sign-btn{
+    margin-left: -50px;
+    font-size: 12px;
+}
+
+.head-2{
+    font-size: 50px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.details{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-btn{
+    margin-left: 570px;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 0px solid;
+}
+
+.body-2{
+    background-color: black;
+}
+
+.IMG{
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.IMG-2{
+    transition: .5s ease-in-out;
+}
+
+.IMG-2:hover{
+    transform: scale(0.9);
+    transition: .5s ease-in-out;
+}
+
+.IMG-3{
+    transition: .5s ease-in-out;
+}
+
+.IMG-3:hover{
+    transform: scale(0.9);
+    transition: .5s ease-in-out;
+}
+
+.IMG-4{
+    transition: .5s ease-in-out;
+}
+
+.IMG-4:hover{
+    transform: scale(0.9);
+    transition: .5s ease-in-out;
+}
+
+.IMG-5{
+    transition: .5s ease-in-out;
+}
+
+.IMG-5:hover{
+    transform: scale(0.9);
+    transition: .5s ease-in-out;
+}
+
+.text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 1.3 ease-in-out;
+}
+
+ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer{
+    background-color: black;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    font-style: italic;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 25%;
+        padding: 0 15px;
+    }
+}
